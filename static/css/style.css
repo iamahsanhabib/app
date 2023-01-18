@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+.container-bg{
+    background-color: aquamarine;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.rounded-pill{
+    border-radius:25px;
+    background-color: red;
+}
+.card-align{
+    text-align: center;
+}
+
+.calender{
+    width: 75%;
+    border-radius: 10px;
+    
+}
+.member-heading{
+    margin: 50px 130px 20px 130px;
+}
+.member{
+    margin:  10px 130px;
+    border: 2px;
+    border-radius:5px;
+    border-color: black;
+    padding: 20px;
+    border-style: dashed;
+}
+
+.media-button .btn{
+    border: none;
+    border-radius:25px;
+    padding: 5px;
+    margin: 8px;
+    width: 50px;
+    cursor : pointer;
+    font-size: 32px;
+    
+
+}
+
+.comment{
+    width:500px;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  /* Style the active class, and buttons on mouse-over */
+  .active, .btn1:hover {
+    background-color: rgb(240, 235, 234);
+    color: white;
+  }
